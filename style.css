@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:#0A192F
+}
+.main{
+    height: 100vh;
+    width: 100%;
+
+}
+nav{
+    width: 100%;
+    background-color:#081325;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 4vw;
+    color: white;
+  align-items: center;
+ 
+}
+.nav-part1{
+    border: 1px solid white;
+    padding: 0.5vw;
+}
+.nav-part2 ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4vw;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav-part2 a{
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+}
+.home-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #0A192F;
+    padding:1px 8vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-left{
+    width: 50%;
+    margin-top: -120px; /* Adjust the value as needed */
+   
+}
+.home-right{
+    width: 50%;
+    padding-left: 200px;
+    margin-top: -120px;
+}
+.home-left h2{
+    font-size: 60px;
+}
+.home-left p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #6B645E;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons i{
+    padding: 1vw;
+}
+.about{
+    height: 400px;
+    width: 900px;
+    background-color: #155E75;
+    margin: 1vw 14vw;
+    border-radius: 3vw;
+}
+.about h2{
+    text-align: center; /* Center align all h2 elements inside .about */
+   padding-top: 2vw;
+}
+.childs-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+.left-about{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.right-about{
+   padding: 3vw;
+}
+.button{
+    background-color: #0A192F;
+    color: wheat;
+    display: inline;
+    margin: 350px;
+    padding: 1vw;
+}
+.skills{
+    height: 400px;
+    width: 900px;
+    background-color: #0A192F;
+    margin: 9vw 14vw;
+    border-radius: 3vw;
+    color: white;
+}
+.skills h2{
+    text-align: center;
+    padding-top: 2vw;
+    font-size: 2vw;
+}
+.skills p{
+        text-align: center;
+        font-size: 1.6vw;
+        margin-top: 2vw;
+        
+}
+.skills-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4vw 3vw 3vw 3vw;
+}
+.skills-button button{
+    width: 200px;
+    background-color: #0A192F;
+    color: white;
+    height: 100px;
+}
